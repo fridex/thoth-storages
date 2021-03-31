@@ -33,8 +33,9 @@ from .graph_backup import GraphBackupStore
 from .inspections import InspectionResultsStore
 from .inspections import InspectionBuildsStore
 from .inspections import InspectionStore
-from .provenance import ProvenanceResultsStore
+from .prescriptions import PrescriptionStore
 from .provenance_cache import ProvenanceCacheStore
+from .provenance import ProvenanceResultsStore
 from .result_schema import RESULT_SCHEMA
 from .security_indicators import SIAggregatedStore, SIBanditStore, SIClocStore
 from .security_indicators import SecurityIndicatorsResultsStore
